@@ -1,0 +1,88 @@
+
+.p-0{
+  padding: 0px !important;
+}
+.no-border{
+    border: none !important;
+}
+.no-border-text{
+    border-radius: 0;
+    border-color: transparent !important;
+    /*border-bottom-style: dotted !important;
+    border-bottom-color: grey !important; */
+}
+
+.pointer{
+	cursor: pointer;
+}
+.textError{
+	border-color:#ed5565;
+}
+.textWarning{
+	border-color: #f8ac59;
+}
+.textSuccess{
+	border-color: #1ab394;
+}
+
+.input-sm{
+	font-size: 12px !important;
+}
+.magnific:hover{
+	cursor: pointer;
+}
+
+/*
+untuk mempertebal border input
+*/
+
+/*.form-control,
+.single-line {
+  border-color: #aaa;
+}
+.btn-default{
+	border-color: #aaa;
+}*/
+
+/*Jquery ui autocomplete*/
+
+.autocomplete_list_item_container {
+    width: 300px;
+    height: 60px;
+    padding: 5px 0;
+}
+
+.autocomplete_image {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    float: left;
+}
+
+.autocomplete_description {
+    font-style: italic;
+    font-size: 0.8em;
+    color: gray;
+}
+#sf-resetcontent.sf-reset{
+    width: 100%;
+}
+
+
+/*Prevent invisible line in ncomputing*/
+
+.btn-default,
+.form-control,
+.single-line {
+    border: 1px solid #ddd;
+}
+
+.table-bordered,
+.table-bordered>thead>tr>th,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>tbody>tr>td,
+.table-bordered>tfoot>tr>td {
+    border: 1px solid #ddd;
+}
