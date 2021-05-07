@@ -37,5 +37,7 @@ Build with Codeigniter 3.1.9 + AngularJs
 * Free to use (dont remove watermark on footerpage)
 
 Thanks for contributing
-### All tutorials on https://www.youtube.com/peternakkode ###
+### Documentation https://www.youtube.com/watch?v=HWhyPSOJ1p4 ###
+
+
 
