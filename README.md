@@ -17,6 +17,8 @@ Build with Codeigniter 3.1.9 + AngularJs
 * setup base_url on config.php, and set your database.php 
 
 ### How to use CRUD Generator? ###
+* clone winkcode 2 to your localhost
+* import database on assets/db/
 * login on localhost/winkcode2/auth (user: dev, pass: dev123)
 * go to localhost/winkcode2/crud
 * choose table want to generate
