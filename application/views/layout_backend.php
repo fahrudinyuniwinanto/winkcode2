@@ -4,29 +4,16 @@
 
 $arr_root = [
     // ['M_DISKET1', 'proposal_h/index/disket1', 'Disposisi Ketua 1', 'share'],
-    // ['M_DISPOSURVEY', 'proposal_h/index/disposurvey', 'Disposisi Survey', 'share'],
-    // ['M_DISPORAPAT', 'proposal_h/index/disporapat', 'Disposisi Rapat', 'share'],
-    // ['M_DISPOWAKA2', 'proposal_h/index/dispowaka2', 'Disposisi Wakil 2', 'share'],
-    // ['M_DISPOPELAKSANA', 'proposal_h/index/dispopelaksana', 'Disposisi Pelaksana', 'share'],
-    // ['M_DISPOWAKA4', 'proposal_h/index/dispowaka4', 'Disposisi Wakil 4', 'share'],
 ];
 $arr_mst = [
     ['M_INSTANSI', 'instansi', 'SKPD', 'database'],
     ['M_PERMASALAHAN', 'permasalahan', 'Permasalahan', 'database'],
-    // ['M_KEGIATAN', 'm_kegiatan', 'Kegiatan', 'database'],
-    // ['M_MUZ', 'm_muz/index/muz', 'Muzaki', 'database'],
-    // ['M_MUZ', 'm_muz/index/mus', 'Mustahik', 'database'],
 ];
 $arr_trs = [
     // ['M_ANGGARAN_H', 'anggaran_h', 'Anggaran', 'list'],
-    // ['M_PROPOSAL_H', 'proposal_h', 'Proposal', 'list'],
-    // ['M_MUTASI_H', 'mutasi_h', 'Mutasi', 'list'],
 ];
 $arr_rpt = [
     // ['M_LAPORAN', 'anggaran_h/laporan', 'Laporan', 'file-o'],
-    // ['M_GRAFIK', 'backend/grafik/anggaran', 'grafik Anggaran', 'pie-chart'],
-    // ['M_GRAFIK', 'backend/grafik/realisasi', 'grafik Realisasi', 'pie-chart'],
-    // ['M_GRAFIK', 'backend/grafik/daerah', 'grafik Per Daerah', 'pie-chart'],
 ];
 ?>
 <!DOCTYPE html>
@@ -238,7 +225,7 @@ lookup();
                     </li>
 
                     <li class="">
-                        <a href="<?=base_url()?>proposal_h"><i class="fa fa-send"></i><span
+                        <a href="<?=base_url()?>auth/logout"><i class="fa fa-send"></i><span
                                 class="nav-label">Keluar</span></a>
                     </li>
                 </ul>
