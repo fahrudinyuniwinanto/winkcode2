@@ -186,8 +186,8 @@ lookup();
                         </div>
                     </li>
                     <li><a href="<?=base_url()?>backend"><i class="fa fa-th-large"></i> <span
-                                class="nav-label">Beranda</span><span
-                                class="label label-primary pull-right"></span></a></li>
+                                class="nav-label">Beranda</span><span class="label label-primary pull-right"></span></a>
+                    </li>
                     <?php foreach ($arr_root as $k => $v): ?>
 
                     <li class="<?=!is_allow($v[0]) ? 'hide' : ''?>"><a href="<?=base_url() . $v[1]?>"><i
@@ -211,14 +211,6 @@ lookup();
                     <li class="<?=!is_allow("M_KONSULTASI") ? 'hide' : ''?>">
                         <a href="<?=base_url()?>konsultasi"><i class="fa fa-send"></i><span
                                 class="nav-label">Konsultasi</span></a>
-                    </li>
-                    <li class="<?=!is_allow("M_BERTEMU") ? 'hide' : ''?>">
-                        <a href="<?=base_url()?>bertemu"><i class="fa fa-send"></i><span
-                                class="nav-label">Bertemu</span></a>
-                    </li>
-                    <li class="<?=!is_allow("M_DITANYAKAN") ? 'hide' : ''?>">
-                        <a href="<?=base_url()?>ditanyakan"><i class="fa fa-send"></i><span
-                                class="nav-label">Sering Ditanyakan</span></a>
                     </li>
 
                     <li class="">
@@ -260,8 +252,8 @@ lookup();
                                 class="fa fa-bars"></i> </a>
                         <form role="search" class="navbar-form-custom" action="search_results.html">
                             <div class="form-group">
-                                <input type="text" placeholder="Cari konsultasi ..." class="form-control" name="top-search"
-                                    id="top-search">
+                                <input type="text" placeholder="Cari konsultasi ..." class="form-control"
+                                    name="top-search" id="top-search">
                             </div>
                         </form>
                     </div>
