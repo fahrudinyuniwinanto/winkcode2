@@ -34,7 +34,7 @@ Build with Codeigniter 3.1.9 + AngularJs
 
 ### Contribution guidelines ###
 
-* Free to use (dont remove watermark on footerpage)
+* Free to use/edit/share (dont remove "PETERNAK KODE" watermark on footerpage)
 
 Thanks for contributing
 ### Documentation buka <a href="https://www.youtube.com/watch?v=HWhyPSOJ1p4" target="_blank">https://www.youtube.com/watch?v=HWhyPSOJ1p4 </a> ###
