@@ -269,7 +269,7 @@ lookup();
                 <?=data_app('RIGHT_FOOTER');?>
             </div>
             <div>
-                <?=data_app('LEFT_FOOTER');?>
+                <strong>Copyright</strong> <a href="youtube.com/peternakkode" target="_blank">Peternak Kode</a> © 2020
             </div>
         </div>
     </div>
