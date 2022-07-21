@@ -269,7 +269,8 @@ lookup();
                 <?=data_app('RIGHT_FOOTER');?>
             </div>
             <div>
-                <strong>Copyright</strong> <a href="youtube.com/peternakkode" target="_blank">Peternak Kode</a> © 2020
+                <strong>Copyright</strong> <a href="youtube.com/peternakkode" target="_blank">Peternak Kode (Winkcode 2
+                    Framework)</a> © 2020
             </div>
         </div>
     </div>
